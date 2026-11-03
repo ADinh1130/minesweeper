@@ -28,7 +28,6 @@ def valid_guess(board, row, col):
 	return board[row][col] == "?"
 """
 #5
-print("Hello World!")
 def valid_placement(board, row, col, direction, ship_size):
 	valid = True
 	check_row = row
